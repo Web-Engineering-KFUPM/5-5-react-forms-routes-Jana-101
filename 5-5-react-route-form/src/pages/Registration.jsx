@@ -91,7 +91,7 @@ export default function Registration() {
 {errors.gender && <p className="error">{errors.gender}</p>}
         </fieldset>
 
-          {/*Disable the submit button until all requirements met*/}
+          {/*;Disable the submit button until all requirements met*/}
 <button
   type="submit"
   className="btn"
